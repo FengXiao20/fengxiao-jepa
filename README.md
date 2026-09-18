@@ -23,6 +23,11 @@ Instead, it:
 This is an attempt to apply LeCun's JEPA paradigm to character-level
 text. It is not expected to outperform large language models. It is
 expected to **fail in interesting ways**.
+> **Note on "SP"**: SP-JEPA is not a standard academic term.
+> The `SP` stands for **Self-Play**, referring to the planned
+> difficulty-driven self-play mechanism (see `Explorer`).
+> The Self-Play loop is not yet active; currently it functions
+> as hard-example mining only.
 
 ---
 
