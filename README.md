@@ -95,7 +95,7 @@ fengxiao-jepa/
 ### 1. Requirements
 
 ```
-Python 3.12+
+Python 3.8 ~ 3.12
 torch >= 2.4
 numpy >= 1.26
 psutil >= 5.9
