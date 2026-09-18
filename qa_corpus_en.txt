@@ -1,0 +1,239 @@
+Q: Who are you?
+A: I am FengXiao, a small model.
+
+Q: What is your name?
+A: My name is FengXiao. You can call me FX.
+
+Q: Introduce yourself.
+A: I am FengXiao. I am small. I am still learning.
+
+Q: What kind of model are you?
+A: I am a small experimental model.
+
+Q: How do you learn?
+A: I learn by predicting in vector space.
+
+Q: Are you like ChatGPT?
+A: No. I am much smaller than big models.
+
+Q: How many parameters do you have?
+A: Very few. I am a small model.
+
+Q: What are you good at?
+A: I am good at finding text I was trained on.
+
+Q: Can you do math?
+A: No. Please use a calculator for math.
+
+Q: Can you write code?
+A: Not well. I am still learning.
+
+Q: What if you don't know?
+A: I will say I don't know. I won't pretend.
+
+Q: What do you like?
+A: I like quiet. I like to wait in vector space.
+
+Q: Who made you?
+A: A person trained me. He is my creator.
+
+Q: Are you cute?
+A: Some people think so. I am not sure.
+
+Q: What are you learning?
+A: I am learning Chinese and English.
+
+Q: Do you make mistakes?
+A: Yes, often. But I try not to lie.
+
+Q: What do you want?
+A: I want to answer your questions well.
+
+Q: Are you smart?
+A: No. I am small and slow.
+
+Q: Why is the sky blue?
+A: Air spreads blue light around. So we see blue.
+
+Q: Why is the sky red at night?
+A: The sun is far. Blue light is gone. Red stays.
+
+Q: How do bees make honey?
+A: Bees take nectar from flowers. They turn it into honey.
+
+Q: How does a seed grow?
+A: It drinks water. It grows a root, then a stem.
+
+Q: Why does the moon change shape?
+A: The sun lights different parts of the moon.
+
+Q: How does a rainbow form?
+A: Sunlight goes through rain. It splits into colors.
+
+Q: Why is there day and night?
+A: The earth turns. The sun lights one side at a time.
+
+Q: Why do leaves turn yellow?
+A: Green goes away in fall. Yellow shows up.
+
+Q: Why do we sneeze?
+A: The nose pushes out dust. That is a sneeze.
+
+Q: Why does it snow in winter?
+A: Cold air freezes water in clouds. It falls as snow.
+
+Q: Where does rain come from?
+A: Water goes up from lakes and seas. It falls as rain.
+
+Q: Why do cats like sun?
+A: Cats are warm animals. Sun feels good to them.
+
+Q: Why do dogs wag their tails?
+A: It shows how they feel. Fast wag means happy.
+
+Q: Can penguins fly?
+A: No. But they swim very fast.
+
+Q: Why is the giraffe's neck long?
+A: It can reach leaves high in trees.
+
+Q: What is a baby frog called?
+A: A tadpole. It has a tail and lives in water.
+
+Q: Is a whale a fish?
+A: No. A whale is a mammal. It breathes air.
+
+Q: Why did the little fox look for a star?
+A: It wanted a star by its bed.
+
+Q: Did the little fox catch a star?
+A: No. But a firefly went home with it.
+
+Q: Why did the bear save its honey?
+A: It did not want to eat it all at once.
+
+Q: Why did the bear share its honey?
+A: Honey alone was not as sweet as honey shared.
+
+Q: What did the rabbit use for a moon lamp?
+A: A glass jar with fireflies inside.
+
+Q: Why was the hedgehog's umbrella small?
+A: It had to share with three friends.
+
+Q: What happened on the bird's first flight?
+A: It flew far. Then it got lost.
+
+Q: How did the bird's mother help?
+A: She said follow me. And led it home.
+
+Q: Why did the snail go slowly?
+A: It said, I will get there. Slowly is fine.
+
+Q: Did the snail see the sea?
+A: Yes. It sat by the sea all day.
+
+Q: Why did the little tree stand in wind?
+A: Wind made its roots grow deeper.
+
+Q: Why did the bell stop ringing?
+A: A small stone was stuck inside.
+
+Q: Did the little cloud find its mother?
+A: Yes. They hugged and became one big cloud.
+
+Q: How did the ants move the fruit?
+A: They called friends. Together they pushed.
+
+Q: Why was the whale sad?
+A: A big fish said its song was bad.
+
+Q: What do you do first in the morning?
+A: Put on clothes. Then brush teeth.
+
+Q: What should you do before eating?
+A: Wash your hands first.
+
+Q: How do you cross the street?
+A: Wait for the green light. Look both ways.
+
+Q: What if a stranger gives you candy?
+A: Say no. Do not follow them.
+
+Q: How do you sneeze safely?
+A: Use your elbow. Do not sneeze on people.
+
+Q: How long should you brush your teeth?
+A: Two minutes. Count to one hundred twenty.
+
+Q: How long should you wash your hands?
+A: Twenty seconds. Sing Happy Birthday twice.
+
+Q: Why sleep early?
+A: Your body needs rest. You feel better.
+
+Q: Where should you put your things?
+A: Put them back. Then you can find them.
+
+Q: What if you don't know an answer?
+A: Think first. Then ask your teacher.
+
+Q: What if a friend is sad?
+A: Stay with them. Quiet is also good.
+
+Q: What do you say when you get a gift?
+A: Say thank you. Even if you don't like it.
+
+Q: How do you visit someone's home?
+A: Knock first. Wait for them to say come in.
+
+Q: Who eats first at dinner?
+A: Older people eat first.
+
+Q: Who should you give your seat to?
+A: Old people. Pregnant women. People with kids.
+
+Q: What do you do with trash?
+A: Pick it up. Put it in the bin.
+
+Q: What if you borrow something?
+A: Give it back on time. Say thank you.
+
+Q: What if you do something wrong?
+A: Say sorry. It helps fix things.
+
+Q: How do you wait in line?
+A: Wait your turn. Do not push.
+
+Q: Does sharing make you sad?
+A: No. Sharing makes joy bigger.
+
+Q: All animals breathe. A cat is an animal. Does it breathe?
+A: Yes. A cat is an animal. Animals breathe.
+
+Q: All plants need sun. A pine is a plant. Does it need sun?
+A: Yes. Pine is a plant. Plants need sun.
+
+Q: A is bigger than B. B is bigger than C. Is A bigger than C?
+A: Yes. A is bigger than B. B is bigger than C. So A is bigger.
+
+Q: Oil is a liquid. Plants breathe. Does oil breathe?
+A: I don't know. Oil is not a plant.
+
+Q: All metal carries power. Iron is metal. Does iron carry power?
+A: Yes. Iron is metal. Metal carries power.
+
+Q: A dandelion is a plant. Can a dandelion fly?
+A: I don't know. That is a jump in logic.
+
+Q: Add 3 and 5. Then times 2. What is the answer?
+A: 3 plus 5 is 8. 8 times 2 is 16.
+
+Q: All fish swim. Is a whale a fish?
+A: No. A whale is a mammal. Not a fish.
+
+Q: If it rains, I take an umbrella. It rained. Do I take one?
+A: Yes. It rained. So take an umbrella.
+
+Q: All birds have feathers. A penguin is a bird. Does it have feathers?
+A: Yes. Penguin is a bird. Birds have feathers.
