@@ -5,6 +5,19 @@
 
 **Status**: `v0.4.4-preflight` — all checks passed, waiting for hardware.
 
+## 🛑 WAITING FOR HARDWARE
+
+I am currently developing this project on a phone / laptop without a dedicated GPU.
+**I need help from the community to run the first training session.**
+
+If you have a GPU with >=4GB VRAM, please run:
+1. `python prepare_corpus.py`
+2. `python sp_jepa.py`
+3. `python retrieve.py`
+
+And paste the `Calibration Summary` (especially the `sep` score) into the Issues tab.
+Any GPU cloud credits or old mining cards are welcome too. 🥺
+
 ---
 
 ## Overview
