@@ -223,3 +223,9 @@ what makes it worth building.
 ## License
 
 MIT
+
+## How to Contribute
+
+- **Run it**: See the "WAITING FOR HARDWARE" section above.
+- **Report bugs**: Open an Issue with your OS, Python version, and the exact error log.
+- **Propose ideas**: PRs for new logic generators or L4 decoding optimizations are welcome.
