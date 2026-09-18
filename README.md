@@ -34,18 +34,20 @@ expected to **fail in interesting ways**.
 ## Architecture
 
 ```
-                 ┌────────────────────┐
-   context  ───► │  context_encoder   │ ───►  ctx_emb
-                 └────────────────────┘
+                  ┌────────────────────┐
+   context  ───►│  context_encoder   │ ───►  ctx_emb
+                  └────────────────────┘
                                                 │
                                                 ▼
                  ┌────────────────────┐
                  │     predictor      │ ───►  pred_emb  (next position)
                  └────────────────────┘
                                                 │
-   raw text ───► ┌────────────────────┐         │
+                                                ▼
+ raw text ───► ┌────────────────────┐
                  │  target_encoder    │ ───►  tgt_emb  (EMA of context)
-                 └────────────────────┘         │
+                 └────────────────────┘
+                                                │
                                                 ▼
                                    L_JEPA = smooth_l1(pred, tgt)
                                    L_VISREG = variance + sliced-W
@@ -96,9 +98,9 @@ fengxiao-jepa/
 
 ```
 Python 3.8 ~ 3.12
-torch >= 2.4
-numpy >= 1.26
-psutil >= 5.9
+torch>=2.4.0
+numpy>=1.26.0,<2.0
+psutil>=5.9.0
 ```
 
 Install:
