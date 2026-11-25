@@ -1,0 +1,39 @@
+{
+ "ckpt": "resume.pth",
+ "n_eval": 100,
+ "overall": {
+  "n": 100,
+  "accuracy": 0.08,
+  "conf_corr": -0.0926022176542724,
+  "fok_corr": -0.11245145247572973
+ },
+ "per_source": {
+  "t1_mod7": {
+   "n": 25,
+   "accuracy": 0.16,
+   "conf_corr": 0.017727762299930085,
+   "fok_corr": -0.16791112115521745
+  },
+  "id_mod97": {
+   "n": 25,
+   "accuracy": 0.04,
+   "conf_corr": 0.0022944204727739386,
+   "fok_corr": 0.16312051767789348
+  },
+  "poison_mod13": {
+   "n": 25,
+   "accuracy": 0.12,
+   "conf_corr": -0.14557694519811104,
+   "fok_corr": -0.07462015799390541
+  },
+  "poison_mod61": {
+   "n": 25,
+   "accuracy": 0.0,
+   "conf_corr": 0.0,
+   "fok_corr": 0.0
+  }
+ },
+ "threshold": 0.3,
+ "conf_accept": false,
+ "fok_corr": -0.11245145247572973
+}

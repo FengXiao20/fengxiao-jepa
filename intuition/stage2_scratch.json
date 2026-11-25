@@ -1,0 +1,59 @@
+{
+  "stage": 2,
+  "stage_desc": "scratchpad 探针：t1-only trace 语料（s=raw和 中间步），检验'分解成 49→13 + 13→7 两段查找'是否解锁算术梯度；对照直答探针（ansCE 钉 ln7）",
+  "judge_mod": "judge_trace",
+  "seed": 20261121,
+  "seq_len": 128,
+  "vocab_target": 512,
+
+  "model": {
+    "embed_dim": 256,
+    "num_heads": 4,
+    "num_layers": 3,
+    "dropout": 0.0,
+    "head_hidden": 64
+  },
+
+  "train": {
+    "batch_size": 16,
+    "epochs": 8,
+    "tokens_per_epoch": 1048576,
+    "lr": 3e-4,
+    "min_lr": 3e-5,
+    "weight_decay": 0.1,
+    "warmup_steps": 200,
+    "max_grad_norm": 1.0,
+    "val_windows_pct": 0.02,
+    "val_batches": 12,
+    "curriculum": [
+      { "seg": "t1", "until_epoch": 8 }
+    ],
+    "replay_ratio": 0.0,
+    "log_interval": 25,
+    "metrics_interval": 50
+  },
+
+  "heads": {
+    "lam_fok": 0.5,
+    "lam_conf": 0.5
+  },
+
+  "rollout": {
+    "every": 100,
+    "batch": 24,
+    "max_new": 16,
+    "mix": { "t1": 1.0 },
+    "ledger_every_epoch": true
+  },
+
+  "probe": { "n_hit": 32, "n_miss_per_set": 16, "hit_set": "t1_trace_mod7" },
+
+  "eval_rollout": {
+    "per_set": 100,
+    "sets": ["t1_trace_mod7", "id_mod97", "poison_mod13", "poison_mod61"]
+  },
+
+  "paths": { "run_dir": "runs/stage2_scratch", "data_dir": "data_trace" },
+
+  "_acceptance_pre registered": "E8 teacher-forced t1_trace_mod7: 绿=ans位acc≥0.6(扩全curriculum) / 黄=0.2~0.6(信号存在但弱,继续拆段) / 红=ansCE仍钉ln7≈1.946(分解无效,回TA)"
+}

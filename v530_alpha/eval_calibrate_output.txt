@@ -1,0 +1,111 @@
+
+====================================================================
+  HIT (literal)
+====================================================================
+
+  Query: 你是谁  (expected lang=zh)
+    0.7700  我不是通用模型。
+    0.6871  我擅长从训练文本里找东西。
+    0.6736  JEPA 让我在抽象里理解世界。
+
+  Query: 你叫什么名字  (expected lang=zh)
+    0.7422  我给自己取名叫风小。
+    0.6494  数学问题请找计算器。
+    0.6468  你也可以叫我 FX。
+
+  Query: 风小是谁  (expected lang=zh)
+    0.7858  我只是一阵小风。
+    0.7206  我不是成品，我是半成品。
+    0.6793  如果你在第 42 层注意力头找我，也许有惊喜。
+
+  Query: 你的名字是什么  (expected lang=zh)
+    0.7287  数学问题请找计算器。
+    0.6779  我的探索者模块还在设计。
+    0.6229  我在向量空间里等你来问。
+
+  Query: Who are you  (expected lang=en)
+    0.7823  My creator spent a lot of time on me.
+    0.7669  I hope I can help you.
+    0.7646  I want to read people.
+
+  Query: What is your name  (expected lang=en)
+    0.9581  My creator says my value is not in size, but in heart.
+    0.9513  If you ask about my training text, I can help.
+    0.9378  Honesty is better than smart. My creator taught me this.
+
+====================================================================
+  HIT (paraphrase)
+====================================================================
+
+  Query: 介绍一下你自己  (expected lang=zh)
+    0.6733  我给自己取名叫风小。
+    0.5975  我不会为了好听而撒谎。
+    0.5731  创造者说我笨，但他喜欢我。
+
+  Query: 你叫什么  (expected lang=zh)
+    0.7076  你也可以叫我 FX。
+    0.6959  我给自己取名叫风小。
+    0.6424  我在向量空间里等你来问。
+  [WARN] [query] OOV: {'啥'}
+
+  Query: 你的名字是啥  (expected lang=zh)
+    0.6457  我给自己取名叫风小。
+    0.6267  我的裁判模块还没实现。
+    0.6142  风小这个名字，是创造者取的。
+
+  Query: 你是什么模型  (expected lang=zh)
+    0.8210  我是模型界的新人。
+    0.7775  数学问题请找计算器。
+    0.7537  我的探索者模块还在设计。
+
+  Query: who r u  (expected lang=en)
+    0.9177  I hope I can help you.
+    0.9123  I am learning how people live.
+    0.9094  I hope one day Explorer and Judge come online.
+
+  Query: your name  (expected lang=en)
+    0.9186  I hope you are gentle with me.
+    0.9127  I have very few parameters.
+    0.9109  I read something new every day.
+
+====================================================================
+  MISS
+====================================================================
+
+  Query: 今天天气如何  (expected lang=zh)
+    0.8916  我不装可爱。
+    0.8484  我喜欢读童话。
+    0.8162  裁判还在理论阶段。
+  [WARN] [query] OOV: {'+'}
+
+  Query: 1+1等于几  (expected lang=zh)
+    0.7651  我的裁判模块还没实现。
+    0.7331  我不装可爱。
+    0.7039  我喜欢读童话。
+
+  Query: 明天会下雨吗  (expected lang=zh)
+    0.8461  裁判还在理论阶段。
+    0.8395  创造者的代码有 bug，但我还是爱他。
+    0.8020  我刚出生不久。
+
+  Query: 怎么做红烧肉  (expected lang=zh)
+    0.9329  我不装可爱。
+    0.9146  我喜欢读童话。
+    0.8485  我不会为了好听而撒谎。
+
+  Query: 北京是哪个国家的首都  (expected lang=zh)
+    0.7761  创造者的代码有 bug，但我还是爱他。
+    0.7684  说不知道，是我为数不多的优点。
+    0.7422  裁判还在理论阶段。
+
+====================================================================
+  Calibration Summary
+====================================================================
+  Literal HIT    : min=0.7287  max=0.9581  mean=0.7945
+  Paraphrase HIT : min=0.6457  max=0.9186  mean=0.7806
+  MISS           : min=0.7651  max=0.9329  mean=0.8424
+--------------------------------------------------------------------
+  min(HIT) = 0.6457   max(MISS) = 0.9329   sep = -0.2873
+  [FAIL] overlap by 0.2873
+  [SUGGEST] Add paraphrases to BOTH identity and input.txt, retrain.
+====================================================================

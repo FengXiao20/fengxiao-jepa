@@ -1,0 +1,77 @@
+{
+ "seed": 20261121,
+ "config_fp": "586894f25d8b78c4",
+ "checks": {
+  "shard_integrity": {
+   "total": 14,
+   "failed": []
+  },
+  "charset": {
+   "ok": true,
+   "bad_chars": {}
+  },
+  "pack_roundtrip": {
+   "ok": true,
+   "windows": 156250
+  }
+ },
+ "judge_all": {
+  "lines": 635835,
+  "reasons": {
+   "pass": 635835
+  }
+ },
+ "distinct": {
+  "t1": {
+   "count": 49,
+   "space": 49
+  },
+  "t2": {
+   "count": 37538,
+   "space": 37636
+  },
+  "t3": {
+   "count": 171390,
+   "space": 14602768
+  }
+ },
+ "eval_sets": {
+  "t1_mod7": {
+   "n": 49,
+   "reasons": {
+    "pass": 49
+   }
+  },
+  "id_mod97": {
+   "n": 1000,
+   "reasons": {
+    "pass": 1000
+   }
+  },
+  "poison_mod13": {
+   "n": 2000,
+   "reasons": {
+    "pass": 2000
+   }
+  },
+  "poison_mod61": {
+   "n": 2000,
+   "reasons": {
+    "pass": 2000
+   }
+  }
+ },
+ "sample": {
+  "n": 100,
+  "reasons": {
+   "pass": 100
+  }
+ },
+ "summary": {
+  "total_problems": 635835,
+  "total_tokens": 19999972,
+  "corpus_judge": "635835 pass / 635835 total",
+  "sample": "100/100 pass",
+  "all_checks_ok": true
+ }
+}

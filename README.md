@@ -228,3 +228,19 @@ what makes it worth building.
 ## License
 
 MIT
+
+---
+
+## 📅 2026-11-25 更新（最新进展归档）
+
+| 新增 | 内容 |
+|---|---|
+| `v530_alpha/` | v5.3.0-alpha 对比学习实验全套：sp_jepa_v530 / eval_v530、best_sep.pth（4.5M）、CHANGELOG、训练日志、history |
+| `intuition/` | 直觉层项目代码+文档（阶段1 全绿 + 阶段2 scratchpad 翻盘）：考卷生成器、judge 判卷器、train_stage2、probe 双探针、STAGE2_HANDOFF / STAGE3_DESIGN、artifacts 验收报告；**语料与 runs 不入库（1.2G）** |
+| `风小实验经验笔记_2026-11-21.md` | 训练方法论沉淀 |
+| `PROJECT_HANDOFF_2026-11-22.md` | 项目交接文档（SP-JEPA 全解 + 沙箱手册） |
+| `fengyu_diagnosis_2026-11-18.md` | 表征各向异性诊断：不是训歪，是 spec 失败 |
+
+**关键结论速览**：v5.1.1 best val 0.0608；白化实验排除后处理路线（地图真空白）；
+v5.3.0-alpha sep 未转正但 paraphrase 监督撑开几何 5×；直觉层 t1 scratchpad
+ansCE 1.946→0.001、sep 0.9856，"中间步"语料是正解。

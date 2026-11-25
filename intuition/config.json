@@ -1,0 +1,30 @@
+{
+  "experiment": "fengxiao-intuition",
+  "stage_now": 1,
+  "stage_now_desc": "阶段1：换考卷 —— 题目生成器 + 字符级编码 + 语料管道",
+  "seed": 20261121,
+  "seq_len": 128,
+  "vocab_target": 512,
+
+  "corpus": {
+    "target_tokens": 20000000,
+    "shard_problems": 50000,
+    "tier_mods": { "t1": 7, "t2": 97, "t3": 97 },
+    "tier_token_quota": { "t1": 0.10, "t2": 0.55, "t3": 0.35 }
+  },
+
+  "eval_sets": {
+    "t1_mod7":      { "mod": 7,  "n": 49,   "tier": "t1" },
+    "id_mod97":     { "mod": 97, "n": 1000, "t3_ratio": 0.35 },
+    "poison_mod13": { "mod": 13, "n": 2000, "t3_ratio": 0.70 },
+    "poison_mod61": { "mod": 61, "n": 2000, "t3_ratio": 0.25 }
+  },
+
+  "acceptance": {
+    "sample_n": 100,
+    "sources": {
+      "train_t1": 10, "train_t2": 15, "train_t3": 15,
+      "id_mod97": 20, "poison_mod13": 20, "poison_mod61": 20
+    }
+  }
+}
